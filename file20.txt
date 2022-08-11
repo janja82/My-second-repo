@@ -1,0 +1,2 @@
+to je novi file ki stoji v novi branch pod ime branch-two
+
