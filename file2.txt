@@ -1,0 +1,1 @@
+tukaj je file 2, ki bide vo master breanch.
