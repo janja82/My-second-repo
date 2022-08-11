@@ -1,1 +1,3 @@
 file tri za test
+
+se nekaj dodala
