@@ -21,6 +21,6 @@ $objectSamsung = new Televizor();
 echo 'Z ' . $objectSamsung -> getName1();
 
 $objectSamsung->setName1 ('hdmi');
-echo ' namestiv ' . $objectSamsung->getName1();
+echo ' namestiv s ' . $objectSamsung->getName1();
 
 ?>

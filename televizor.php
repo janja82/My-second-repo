@@ -1,28 +1,33 @@
-<?php
+<?php 
 class Televizor{
-	
-	private $Philips = 'slika';
 
-	 //getting da se pridobi ali da se zema vrednost object
-	public function getName() {
-		return $this->Philips;
+	private $zvok = 'zvok';
+	private $slika = 'slika';
+
+	public function getZvok() {
+		return $this->zvok;
+	}
+	public function setZvok($zvok) {
+		$this->zvok = $zvok;
 	}
 
-	 //setting, da se dade vrednost, postavi, nastavi, definira katero vrednost naj dobi object 
-	public function setName($newName){
-	 	$this->Philips = $newName;
-	 }
-	 
-}	
+	public function getSlika() {
+		return $this->slika;
+	}
+	public function setSlika($slika) {
+		$this->slika = $slika;
+	}
+}
 
-//izven class naredimo objeck
+$Philips = new Televizor();
+echo $Philips->getZvok() ;
+$Philips->setZvok ('racno');
+echo ' se nastavlja ' . $Philips->getZvok();
+echo '<br>';
+echo $Philips->getSlika();
+$Philips->setSlika ('HDMI');
+echo ' se prikazuva preko ' . $Philips->getSlika();
 
-$object = new Televizor();
-echo 'Namestiv ' . $object -> getName();
 
-$object->setName ('daljinsko');
-echo ' z ' . $object->getName();
 
 ?>
-
-
