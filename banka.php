@@ -43,22 +43,14 @@ class Person {
 
 
 
-
-
-
-
-
-
-
-
 //od tuka pravi Bastri
 $janja = new Person('janja');
 //echo ($janja->getName() . 'ima');
 echo ($janja->getSentence());
-echo ($janja->Razlika('100') . "<br>");
+echo ($janja->Razlika('150') . ' Evrov ' . "<br>");
 
 $bastri = new Person ('bastri');
 echo ($bastri->getSentence());
-echo ($bastri->Suma('200'));
+echo ($bastri->Suma('250') . ' Evrov ');
 
 ?>
